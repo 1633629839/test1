@@ -1,0 +1,7 @@
+<!--pages/warehome1/warehome.wxml-->
+<!--仓库管理页面布局案例 1 -->
+<!-- 布局结构 -->
+<view class="warehomeItem">
+  <view class="fm">左侧</view>
+  <view class="dese">右侧</view>
+</view>

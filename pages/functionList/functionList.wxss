@@ -1,0 +1,10 @@
+/* pages/functionList/functionList.wxss */
+.functionContainer{
+  display: flex;
+  justify-content: space-evenly; /* 均分间距 */
+  flex-wrap: wrap;/* 自动换行 */
+}
+
+.functionContainer x-abilityltem{
+  margin: 10px 0px;/* 设置边框 上下10px 左右0 */
+}

@@ -1,0 +1,23 @@
+/* 能力组件 */
+.functionItem{
+  width: 100px; /* 宽100px */
+  height:130px; /* 高130px */
+  background-color:orange; /* 背景颜色橘色 */
+  border-radius: 10px; /* 圆角半径10px */
+}
+
+.functionItem image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px dashed red; /* 边框 宽5px 虚线 红色 */
+  box-sizing: border-box;/* 增加属性时 不增加盒子大小 没有此属性时边框会超出盒子*/
+}
+
+.functionItem text{
+  width: 100%;
+  display: block;/*行内块元素 */
+  text-align: center;
+  color: white;/* 字体颜色红色 */
+
+}

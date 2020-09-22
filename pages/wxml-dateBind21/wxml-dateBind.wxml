@@ -1,0 +1,17 @@
+<!--实现数据绑定 对应视频21-->
+<view class="warehomeItem">
+  <view class="fm">
+  <image src="{{warehomeImg}}" /> 
+  <!-- mode="aspectFit" 图片按比例缩放 会有一部分空间空白
+  mode="aspectFill" 图片按比例缩放，完全填充空间，图片会有一部分被隐藏
+  没有此属性图片会不按照比例缩放，填满整个空间，突破回变形
+  -->
+  </view>
+
+  <view class="dese">
+  <text class="dollItem">{{warehomeTitle}}</text>
+  <text class="dollName">{{warehomeName}}</text>
+  <text class="dollQuantity">数量：{{warehomeCount}}个</text>
+  </view>
+</view>
+

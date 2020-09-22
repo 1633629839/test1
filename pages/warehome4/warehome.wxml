@@ -1,0 +1,7 @@
+<!--pages/warehome/warehome.wxml-->
+<!--仓库管理页面4 使用组件的方式完成代码复用-->
+<x-warehome/>
+<x-warehome/>
+<x-warehome/>
+<x-warehome/>
+

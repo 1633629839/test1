@@ -1,0 +1,5 @@
+<!-- 能力组件 -->
+<view class="functionItem">
+  <image src="/assets/images/birthdays.png" mode="aspectFill"/>
+  <text>生日</text>
+</view>

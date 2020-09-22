@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "x-warehome":"/components/x-warehome/x-warehome"
+  }
+}

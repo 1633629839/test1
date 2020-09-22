@@ -1,0 +1,12 @@
+<!-- 功能栏页面 -->
+<view class="functionContainer">
+  <x-abilityltem/>
+  <x-abilityltem/>
+  <x-abilityltem/>
+  <x-abilityltem/>
+  <x-abilityltem/>
+  <x-abilityltem/>
+  <x-abilityltem/>
+  <x-abilityltem/>
+  <x-abilityltem/>
+</view>

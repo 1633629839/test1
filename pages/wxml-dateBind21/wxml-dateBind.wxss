@@ -1,0 +1,44 @@
+/* pages/wxml-dateBind/wxml-dateBind.wxss */
+.warehomeItem{
+  height: 100px;
+  border-bottom: 5px solid red;/* 下边框 宽5px 实线 红色*/
+  display: flex;
+}
+
+.warehomeItem .fm{
+  width: 140px;/*宽度1400px */
+  height: 80px;/*高度80px */
+  background-color: orange;/*背景颜色橙色*/
+  margin: 10px;/* 外边框宽度 10px*/
+  margin-right: 0;/* 右外边框0 */
+}
+
+.warehomeItem .fm image{
+  width: 100%;/* 设置图片展示宽度是父容器的宽度*/
+  height: 100%;/* 设置图片展示高度是父容器的高度*/
+}
+
+.warehomeItem .dese{
+  flex: 1;/*把多余的宽度给它 */
+  background-color: cyan;/*背景颜色浅绿色 */
+  padding: 10px;/* 内边框10px  内容会距离盒子边框10px*/
+  display: flex;
+  flex-direction: column; /* 弹性布局为列的方式*/
+  justify-content: space-between;/* 把多余空间平均分配给各元素中间*/
+}
+
+.warehomeItem .dese text{
+  font-size: 13px;/* 字体大小13px */
+}
+
+.warehomeItem .dese .dollItem{
+  font-size: 14px;
+  font-weight: bold;/* 重量 加粗 */
+}
+.warehomeItem .dese .dollName{
+  color: gray; /* 设置字体颜色*/
+}
+
+.warehomeItem .dese .dollQuantity{
+  color: red; /* 设置字体颜色*/
+}

@@ -1,0 +1,17 @@
+<!--pages/warehome/warehome.wxml-->
+<!--仓库管理页面2 使用 display: block; 对text进行页面布局-->
+<view class="warehomeItem">
+  <view class="fm">
+  <image src="/assets/images/fm1.jpg" mode="aspectFit"/> 
+  <!-- mode="aspectFit" 图片按比例缩放 会有一部分空间空白
+  mode="aspectFill" 图片按比例缩放，完全填充空间，图片会有一部分被隐藏
+  没有此属性图片会不按照比例缩放，填满整个空间，突破回变形
+  -->
+  </view>
+
+  <view class="dese">
+  <text class="dollItem">小爪机娃娃仓库管理</text>
+  <text class="dollName">名称：小抓-泳圈团子</text>
+  <text class="dollQuantity">数量：100个</text>
+  </view>
+</view>

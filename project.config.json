@@ -82,6 +82,13 @@
 					"pathName": "pages/wxml-dateBind/wxml-dateBind",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "事件绑定案例",
+					"pathName": "pages/wxml-demo37/wxml-demo37",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

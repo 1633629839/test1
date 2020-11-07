@@ -1,0 +1,29 @@
+<!--pages/wxml-eventBind31/wxml-eventBind31.wxml-->
+<text id="事件绑定" bindtap="_handlerTap">事件绑定</text>
+<text id="触摸离开后事件" bindtap="_handlerTap">触摸离开后事件</text>
+<text id="不阻止冒泡事件" bindtap="_handlerTap">不阻止冒泡事件</text>
+<text id="点击事件" bindtap="_handlerTap">点击事件</text>
+<view style="background-color: orange">
+  <text bind:tap="_handlerTap1"> 事件测试tap</text>
+</view>
+
+<view bind:longpress="_handlerLongpress">手指触摸350ms后触发</view>
+
+<view style="background-color: orange">
+  <text bind:touchstart="_handlerTS"
+  bind:touchmove="_handlerTM"
+  bind:touchend="_handlerTE"
+  bind:touchcancel="_handlerTC"
+  > touch系列事件事件测试</text>
+</view>
+<text>bind 事件会冒泡
+catch阻止事件冒泡
+capture-bind捕捉阶段绑定（后续捕捉流程和冒泡流程会继续执行 捕获是从外往内，与冒泡相反）
+capture-catch中断捕获阶段和冒泡阶段
+mut-bind互斥事件绑定
+
+
+</text>
+
+
+

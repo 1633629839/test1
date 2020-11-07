@@ -1,0 +1,6 @@
+<!--pages/wxml-demo37/wxml-demo37.wxml-->
+<view class="functionContainer">
+  <block wx:for="{{functionItem}}" wx:key="id">
+    <x-abilityltem functionItem="{{item}}"/>
+  </block> 
+</view>

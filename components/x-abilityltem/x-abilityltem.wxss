@@ -19,5 +19,27 @@
   display: block;/*行内块元素 */
   text-align: center;
   color: white;/* 字体颜色红色 */
-
 }
+
+
+  
+  /* 动画名称 动画持续时长 动画延时时间 循环方式  */
+.deleteItem{
+  animation: k-dou 500ms 0s infinite;
+}
+
+/* 定义关键帧动画 百分之几指时间*/
+  @keyframes k-dou{
+    0%{
+    transform: rotate(0deg)
+    }
+
+    10%{
+    transform: rotate(-4deg)
+    }
+
+    15%{
+    transform: rotate(4deg)
+    }
+  }
+

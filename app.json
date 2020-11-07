@@ -1,16 +1,19 @@
 {
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/functionList/functionList",
-      "text": "功能栏",
-      "iconPath": "/assets/images/birthdays.png",
-      "selectedIconPath": "/assets/images/student.png"
-    },{
-      "pagePath": "pages/warehome/warehome",
-      "text": "仓库管理",
-      "iconPath": "/assets/images/student.png",
-      "selectedIconPath": "/assets/images/student.png"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/functionList/functionList",
+        "text": "功能栏",
+        "iconPath": "/assets/images/birthdays.png",
+        "selectedIconPath": "/assets/images/student.png"
+      },
+      {
+        "pagePath": "pages/warehome/warehome",
+        "text": "仓库管理",
+        "iconPath": "/assets/images/student.png",
+        "selectedIconPath": "/assets/images/student.png"
+      }
+    ]
   },
   "pages": [
     "pages/index/index",
@@ -18,7 +21,9 @@
     "pages/functionList/functionList",
     "components/x-abilityltem/x-abilityltem",
     "pages/warehome/warehome",
-    "pages/wxml-dateBind/wxml-dateBind"
+    "pages/wxml-dateBind/wxml-dateBind",
+    "pages/wxml-eventBind31/wxml-eventBind31",
+    "pages/wxml-demo37/wxml-demo37"
   ],
   "window": {
     "backgroundTextStyle": "light",

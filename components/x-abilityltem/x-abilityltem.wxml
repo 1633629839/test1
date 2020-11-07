@@ -1,5 +1,5 @@
 <!-- 能力组件 -->
-<view class="functionItem">
-  <image src="/assets/images/birthdays.png" mode="aspectFill"/>
-  <text>生日</text>
+<view class="functionItem {{isDelete ? 'deleteItem':''}}" id="{{functionItem.id}}" bindlongpress="_deleteItem">
+  <image src="{{functionItem.itemImg}}" mode="aspectFill"/>
+  <text>{{functionItem.itemName}}</text>
 </view>
